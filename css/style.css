@@ -101,6 +101,10 @@ nav { display: none; }
     position: relative;
 }
 
+.intro__img {
+    box-shadow: var(--bs);
+}
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
