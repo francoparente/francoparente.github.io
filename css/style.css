@@ -165,3 +165,11 @@ nav { display: none; }
     background: var(--clr-light); /*currentColor si quiero que matchee el color de "section__title--skills"*/
     opacity: 0.25;
 }
+
+@media (min-width: 800px) {
+    .skills {
+        display: flex;
+        max-width: 1000px;
+        margin: 0;
+    }
+}
