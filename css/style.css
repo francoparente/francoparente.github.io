@@ -56,7 +56,7 @@ strong { font-weight: var(--fw-bold) }
 h1,
 h2,
 h3 {
-    line-height: 1.1;
+    line-height: 1;
     margin: 0;
 }
 
@@ -85,6 +85,7 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle--about {
     background: var(--clr-accent);
     font-family: var(--ff-secondary);
+    margin-bottom: 1em;
 }
 
 /* header */
@@ -94,4 +95,19 @@ nav { display: none; }
 
 .intro {
     position: relative;
+}
+
+@media (min-width: 600px) {
+    .intro {
+        display: grid;
+        grid-template-areas: 
+            "img title"
+            "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+
+    .intro_img {
+        grid-area: img;
+        min-width: 250px;
+    }
 }
