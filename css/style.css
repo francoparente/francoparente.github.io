@@ -162,5 +162,6 @@ nav { display: none; }
     width: 25%;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: currentColor;
+    background: var(--clr-light); /*currentColor si quiero que matchee el color de "section__title--skills"*/
+    opacity: 0.25;
 }
