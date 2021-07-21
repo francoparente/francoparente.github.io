@@ -31,6 +31,8 @@
     }
 }
 
+/* General styles */
+
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -39,6 +41,8 @@ body {
     font-size: var(--fs-body);
     line-height: 1.6;
 }
+
+section { padding: 5em 2em;}
 
 img {
     display: block;
@@ -81,4 +85,13 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle--about {
     background: var(--clr-accent);
     font-family: var(--ff-secondary);
+}
+
+/* header */
+
+
+/* Intro Section*/
+
+.intro {
+    position: relative;
 }
