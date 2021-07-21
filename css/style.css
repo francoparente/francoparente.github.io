@@ -172,4 +172,8 @@ nav { display: none; }
         max-width: 1000px;
         margin: 0;
     }
+
+    .skill + .skill {
+        margin-left: 2em;
+    }
 }
