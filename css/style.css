@@ -217,10 +217,13 @@ nav { display: none; }
 /* About Me section*/
 
 .about-me {
-    max-width:100px;
+    max-width:1000px;
     margin: 0 auto;
 }
 
-@media (min-width:600px) {
-    
+@media (min-width: 600px) {
+    .about-me {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+    }
 }
