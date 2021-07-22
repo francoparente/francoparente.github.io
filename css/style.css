@@ -241,11 +241,11 @@ nav { display: none; }
     }
 
     .section__subtitle--about {
-        grid-column: 1;
+        grid-column: 1/-1;
+        grid-row: 2;
     }
 
     .about-me__img {
-        grid-row: 1/-1;
-        grid-column: 2;
+        grid-area: img;
     }
 }
