@@ -226,4 +226,17 @@ nav { display: none; }
         display: grid;
         grid-template-columns: 1fr 200px;
     }
+
+    .section__title--about {
+        grid-area: title;
+    }
+
+    .section__subtitle--about {
+        grid-column: 1;
+    }
+
+    .about-me__img {
+        grid-row: 1/-1;
+        grid-column: 2;
+    }
 }
