@@ -122,7 +122,7 @@ h3 { font-size: var(--fs-h3) }
 
 nav { display: none; }
 
-/* Intro Section*/
+/* Intro section*/
 
 .intro {
     position: relative;
@@ -166,7 +166,8 @@ nav { display: none; }
     }
 }
 
-/* My skills section*/
+/* My Skills section*/
+
 .my-skills {
     background-color: var(--clr-dark-dimmed);
     background-image: url(../img/skills-bg.jpeg);
@@ -211,4 +212,10 @@ nav { display: none; }
     .skill + .skill {
         margin-left: 2em;
     }
+}
+
+/* About Me section*/
+
+.about-me {
+    max-width:100px
 }
