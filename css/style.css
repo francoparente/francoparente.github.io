@@ -278,6 +278,7 @@ nav { display: none; }
 
 .portfolio__item {
     background: var(--clr-accent);
+    overflow: hidden;
 }
 
 .portfolio__img {
