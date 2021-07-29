@@ -307,3 +307,8 @@ nav { display: none; }
 }
 
 .footer a { color: inherit }
+
+.footer__link:hover,
+.social-list__link:hover {
+    opacity: .7;
+}
