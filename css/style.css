@@ -332,3 +332,11 @@ nav { display: none; }
     margin: 2em 0;
     padding: 0;
 }
+
+.social-list__item {
+    margin: 0 .5em;
+}
+
+.social-list__link {
+    padding:.5em;
+}
