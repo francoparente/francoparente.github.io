@@ -284,3 +284,8 @@ nav { display: none; }
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
 }
+
+.portfolio__img:hover {
+    transform: scale(1.2);
+    opacity: .75;
+}
