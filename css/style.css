@@ -324,3 +324,11 @@ nav { display: none; }
 .footer__link:hover {
     text-decoration: underline;
 }
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    padding: 0;
+}
