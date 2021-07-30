@@ -193,7 +193,7 @@ header {
     transform: rotate(90deg) translateX(-6px);
 }
 
-.nav-open.hamburger::after {
+.nav-open .hamburger::after {
     opacity: 0;
 }
 
