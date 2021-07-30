@@ -162,7 +162,9 @@ header {
     text-decoration: none;
 }
 
-
+.nav__link:hover {
+    color: var(--clr-accent);
+}
 
 /* Intro section*/
 
