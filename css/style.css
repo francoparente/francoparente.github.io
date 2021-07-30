@@ -166,6 +166,12 @@ header {
     color: var(--clr-accent);
 }
 
+.nav-toggle {
+    padding: .25em;
+    background: transparent;
+    border: 0;
+}
+
 .hamburger {
     display: block;
     position: relative;
