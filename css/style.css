@@ -120,7 +120,13 @@ h3 { font-size: var(--fs-h3) }
 
 /* header */
 
-nav { display: none; }
+
+.logo {
+    max-width:100px
+}
+
+
+
 
 /* Intro section*/
 
