@@ -5,8 +5,8 @@
 }
 
 :root {
-    --ff-primary: 'Exo', sans-serif;
-    --ff-secondary: 'Ubuntu', sans-serif;
+    --ff-primary: 'Ubuntu', sans-serif;
+    --ff-secondary: 'Exo', sans-serif;
 
     --fw-reg: 400;
     --fw-bold: 700;
